@@ -13,6 +13,31 @@ The patch changes selected WCF named-pipe bindings to `NetNamedPipeSecurityMode.
 
 The repository contains source code and build instructions. Keep your BMW binaries, keys, logs, and generated patch bundles private. The only NuGet dependency is [Mono.Cecil 0.11.6](https://www.nuget.org/packages/Mono.Cecil/0.11.6).
 
+## CrossOver bottle software inventory
+
+The following entries were shown in CrossOver's Installed Software details for the reference bottle. Repeated entries across the screenshots are listed once. CrossOver clipped the Visual C++ names; the two entries are the x86 and x64 Microsoft Visual C++ 2015 (14.0) Redistributables.
+
+- Microsoft .NET Framework 2.0
+- Microsoft .NET Framework 2.0 Service Pack 2
+- Microsoft .NET Framework 4.0
+- Microsoft .NET Framework 4.5
+- Microsoft .NET Framework 4.5.2
+- Microsoft .NET Framework 4.6.2
+- Microsoft .NET Framework 4.8
+- Microsoft Visual C++ 2015 (14.0) Redistributable (x86)
+- Microsoft Visual C++ 2015 (14.0) Redistributable (x64)
+- CrossOver HTML engine
+- Microsoft Rich Edit 4.1 (`Msftedit.dll`)
+- Microsoft Rich Edit 2.0
+- `msls31`
+- Microsoft Edge WebView2 Runtime
+- Microsoft .NET Runtime 9.0.0 (x64)
+- E-Sys 3.27.1 (build 44813)
+- E-Sys Launcher Premium
+- BMW Group ISTA
+
+This is the reference bottle's inventory, not a clean-bottle prerequisite list. The verified ISTA setup uses native Microsoft .NET Framework 4.8; the other entries document what was installed in this bottle and have not each been isolated as requirements.
+
 ## Prepare and apply
 
 Run these commands from the repository root. Change `BMW` to the name of your bottle and adjust the installation path if needed.
