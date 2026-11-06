@@ -19,3 +19,7 @@ binding-scan*.json
 *.bmw-tools-*.after
 *.staging/
 .tokensave
+
+/result
+
+/result-*

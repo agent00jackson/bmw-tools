@@ -17,14 +17,15 @@ try
             PatchBundle.Install(Path.GetFullPath(root), Path.TrimEndingDirectorySeparator(Path.GetFullPath(bundle)), args[0] == "restore");
             break;
         default:
-            Console.Error.WriteLine("""
+            bool showHelp = args is [] or ["--help"];
+            (showHelp ? Console.Out : Console.Error).WriteLine("""
                 Usage:
-                  bmw-tools audit <ista-root>
-                  bmw-tools prepare <ista-root> <new-bundle-dir> [all|services|operations|psdz]
-                  bmw-tools apply <ista-root> <bundle-dir>
-                  bmw-tools restore <ista-root> <bundle-dir>
+                  ista-mac-patch audit <ista-root>
+                  ista-mac-patch prepare <ista-root> <new-bundle-dir> [all|services|operations|psdz]
+                  ista-mac-patch apply <ista-root> <bundle-dir>
+                  ista-mac-patch restore <ista-root> <bundle-dir>
                 """);
-            return args is ["--help"] ? 0 : 2;
+            return showHelp ? 0 : 2;
     }
     return 0;
 }
