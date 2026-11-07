@@ -1,0 +1,1951 @@
+{
+  "format": 1,
+  "description": "QNX 6.5 ARMv7 link interfaces. Symbol metadata only; no runtime implementation.",
+  "libraries": [
+    {
+      "soname": "libc.so.3",
+      "symbols": [
+        {
+          "name": "MsgSendvs_r",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "TimerTimeout",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "_Ctype",
+          "kind": "object",
+          "size": 4
+        },
+        {
+          "name": "_Stderr",
+          "kind": "object",
+          "size": 80
+        },
+        {
+          "name": "_Stdout",
+          "kind": "object",
+          "size": 80
+        },
+        {
+          "name": "_Tolotab",
+          "kind": "object",
+          "size": 4
+        },
+        {
+          "name": "_Touptab",
+          "kind": "object",
+          "size": 4
+        },
+        {
+          "name": "__aeabi_idiv",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "__aeabi_idivmod",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "__aeabi_ldivmod",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "__aeabi_uidiv",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "__aeabi_uidivmod",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "__aeabi_uldivmod",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "__aeabi_unwind_cpp_pr0",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "__aeabi_unwind_cpp_pr1",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "__aeabi_unwind_cpp_pr2",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "__cxa_atexit",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "__cxa_finalize",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "__get_errno_ptr",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "_exit",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "_init_libc",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "access",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "atexit",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "atof",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "atoi",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "atol",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "calloc",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "clock_gettime",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "close",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "closedir",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "devctl",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "dispatch_block",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "dispatch_context_alloc",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "dispatch_context_free",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "dispatch_create",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "dispatch_destroy",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "dispatch_handler",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "dispatch_timeout",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "dlclose",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "dlerror",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "dlopen",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "dlsym",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "dup2",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "environ",
+          "kind": "object",
+          "size": 4
+        },
+        {
+          "name": "errno",
+          "kind": "object",
+          "size": 4
+        },
+        {
+          "name": "exit",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "fchmod",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "fclose",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "fcntl",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "fdopen",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "fflush",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "fgets",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "fileno",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "fopen",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "fprintf",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "fputc",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "fputs",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "fread",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "free",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "freopen",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "fscanf",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "fstat",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "fsync",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "ftruncate",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "fwrite",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "getenv",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "getpid",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "gettimeofday",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "inet_aton",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "inet_ntop",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "inet_pton",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "ioctl",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "iofunc_attr_init",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "iofunc_func_init",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "isalnum",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "isalpha",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "isatty",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "iscntrl",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "isdigit",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "isgraph",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "islower",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "isprint",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "ispunct",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "isspace",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "isupper",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "isxdigit",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "kill",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "lseek",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "malloc",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "memcmp",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "memcpy",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "memmove",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "memset",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "mkdir",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "name_close",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "name_open",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "nanosleep",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "open",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "opendir",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "perror",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "pipe",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "poll",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "posix_spawn",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "posix_spawn_file_actions_addclose",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "posix_spawn_file_actions_adddup2",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "posix_spawn_file_actions_addopen",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "posix_spawn_file_actions_destroy",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "posix_spawn_file_actions_init",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "posix_spawnp",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "printf",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "pthread_attr_destroy",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "pthread_attr_init",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "pthread_attr_setdetachstate",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "pthread_cond_broadcast",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "pthread_cond_destroy",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "pthread_cond_init",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "pthread_cond_signal",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "pthread_cond_timedwait",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "pthread_cond_wait",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "pthread_create",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "pthread_detach",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "pthread_getschedparam",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "pthread_join",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "pthread_kill",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "pthread_mutex_destroy",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "pthread_mutex_init",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "pthread_mutex_lock",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "pthread_mutex_unlock",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "pthread_self",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "pthread_setschedparam",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "pthread_sigmask",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "putchar",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "puts",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "raise",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "read",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "readdir",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "realloc",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "rename",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "resmgr_attach",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "resmgr_detach",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "select",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "setvbuf",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "sigaction",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "sigaddset",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "sigemptyset",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "sigfillset",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "signal",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "sleep",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "snprintf",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "spawn",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "sscanf",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "stat",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "statvfs",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "strchr",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "strcmp",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "strcpy",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "strcspn",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "strerror",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "strlen",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "strncmp",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "strncpy",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "strrchr",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "strstr",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "strtod",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "strtok",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "strtol",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "strtoll",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "strtoul",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "system",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "tcgetattr",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "tcsetattr",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "time",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "tolower",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "toupper",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "unlink",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "unsetenv",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "usleep",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "vsnprintf",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "waitpid",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "write",
+          "kind": "function",
+          "size": 0
+        }
+      ]
+    },
+    {
+      "soname": "libsocket.so.3",
+      "symbols": [
+        {
+          "name": "accept",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "bind",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "connect",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "getsockname",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "getsockopt",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "inet_ntoa",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "listen",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "recv",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "recvfrom",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "send",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "sendto",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "setsockopt",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "shutdown",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "socket",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "socketpair",
+          "kind": "function",
+          "size": 0
+        }
+      ]
+    },
+    {
+      "soname": "libusbdi.so.2",
+      "symbols": [
+        {
+          "name": "__aeabi_uidiv",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "__aeabi_uidivmod",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "usbd_abort_pipe",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "usbd_alloc",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "usbd_alloc_urb",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "usbd_attach",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "usbd_close_pipe",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "usbd_connect",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "usbd_detach",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "usbd_disconnect",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "usbd_free",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "usbd_free_urb",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "usbd_interface_descriptor",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "usbd_io",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "usbd_open_pipe",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "usbd_parse_descriptors",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "usbd_reset_device",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "usbd_setup_bulk",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "usbd_setup_vendor",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "usbd_urb_status",
+          "kind": "function",
+          "size": 0
+        }
+      ]
+    },
+    {
+      "soname": "libstdc++.so.6",
+      "symbols": [
+        {
+          "name": "_ZN9__gnu_cxx18__exchange_and_addEPVii",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "_ZNKSs12find_last_ofEPKcjj",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "_ZNKSs13find_first_ofEPKcjj",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "_ZNKSs16find_last_not_ofEPKcjj",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "_ZNKSs17find_first_not_ofEPKcjj",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "_ZNKSs4findEPKcjj",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "_ZNKSs4findEcj",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "_ZNKSs5rfindEcj",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "_ZNKSs6substrEjj",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "_ZNKSs7compareEPKc",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "_ZNKSs7compareEjjPKc",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "_ZNKSs7compareEjjRKSs",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "_ZNKSt15basic_stringbufIcSt11char_traitsIcESaIcEE3strEv",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "_ZNSo9_M_insertIdEERSoT_",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "_ZNSo9_M_insertImEERSoT_",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "_ZNSo9_M_insertIxEERSoT_",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "_ZNSolsEi",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "_ZNSs12_M_leak_hardEv",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "_ZNSs4_Rep10_M_destroyERKSaIcE",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "_ZNSs4_Rep20_S_empty_rep_storageE",
+          "kind": "object",
+          "size": 16
+        },
+        {
+          "name": "_ZNSs6appendEPKcj",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "_ZNSs6appendERKSs",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "_ZNSs6assignEPKcj",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "_ZNSs6assignERKSs",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "_ZNSs7reserveEj",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "_ZNSs9_M_mutateEjjj",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "_ZNSsC1EPKcRKSaIcE",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "_ZNSsC1EPKcjRKSaIcE",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "_ZNSsC1ERKSs",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "_ZNSsC1ERKSsjj",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "_ZNSsD2Ev",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "_ZNSt19basic_ostringstreamIcSt11char_traitsIcESaIcEEC1ESt13_Ios_Openmode",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "_ZNSt19basic_ostringstreamIcSt11char_traitsIcESaIcEED1Ev",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "_ZNSt6locale7classicEv",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "_ZNSt6localeD1Ev",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "_ZNSt8ios_baseD2Ev",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "_ZNSt9basic_iosIcSt11char_traitsIcEE5clearESt12_Ios_Iostate",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "_ZNSt9basic_iosIcSt11char_traitsIcEE5imbueERKSt6locale",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_i",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "_ZSt17__throw_bad_allocv",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "_ZSt18_Rb_tree_decrementPKSt18_Rb_tree_node_base",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "_ZSt18_Rb_tree_decrementPSt18_Rb_tree_node_base",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "_ZSt18_Rb_tree_incrementPKSt18_Rb_tree_node_base",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "_ZSt18_Rb_tree_incrementPSt18_Rb_tree_node_base",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "_ZSt20__throw_length_errorPKc",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "_ZSt20__throw_out_of_rangePKc",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "_ZSt28_Rb_tree_rebalance_for_erasePSt18_Rb_tree_node_baseRS_",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "_ZSt29_Rb_tree_insert_and_rebalancebPSt18_Rb_tree_node_baseS0_RS_",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "_ZSt9terminatev",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "_ZTTSt19basic_ostringstreamIcSt11char_traitsIcESaIcEE",
+          "kind": "object",
+          "size": 16
+        },
+        {
+          "name": "_ZTVN10__cxxabiv117__class_type_infoE",
+          "kind": "object",
+          "size": 44
+        },
+        {
+          "name": "_ZTVN10__cxxabiv120__si_class_type_infoE",
+          "kind": "object",
+          "size": 44
+        },
+        {
+          "name": "_ZTVSt15basic_streambufIcSt11char_traitsIcEE",
+          "kind": "object",
+          "size": 64
+        },
+        {
+          "name": "_ZTVSt15basic_stringbufIcSt11char_traitsIcESaIcEE",
+          "kind": "object",
+          "size": 64
+        },
+        {
+          "name": "_ZdaPv",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "_ZdlPv",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "_Znaj",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "_Znwj",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "__aeabi_atexit",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "__aeabi_idiv",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "__aeabi_idivmod",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "__aeabi_uldivmod",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "__aeabi_unwind_cpp_pr0",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "__aeabi_unwind_cpp_pr1",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "__aeabi_unwind_cpp_pr2",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "__aeabi_vec_cctor_nocookie_nodtor",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "__aeabi_vec_ctor_cookie_nodtor",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "__aeabi_vec_ctor_nocookie_nodtor",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "__aeabi_vec_delete",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "__aeabi_vec_delete3",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "__aeabi_vec_delete3_nodtor",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "__aeabi_vec_dtor",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "__aeabi_vec_dtor_cookie",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "__aeabi_vec_new_cookie",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "__aeabi_vec_new_cookie_noctor",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "__aeabi_vec_new_cookie_nodtor",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "__aeabi_vec_new_nocookie",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "__cxa_begin_catch",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "__cxa_call_unexpected",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "__cxa_end_catch",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "__cxa_end_cleanup",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "__cxa_guard_abort",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "__cxa_guard_acquire",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "__cxa_guard_release",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "__cxa_rethrow",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "__gxx_personality_v0",
+          "kind": "function",
+          "size": 0
+        }
+      ]
+    },
+    {
+      "soname": "libm.so.2",
+      "symbols": [
+        {
+          "name": "_Sin",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "__aeabi_d2lz",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "__aeabi_d2ulz",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "__aeabi_f2lz",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "__aeabi_f2ulz",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "__aeabi_ldivmod",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "__aeabi_uidiv",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "__aeabi_uidivmod",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "__aeabi_unwind_cpp_pr0",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "__aeabi_unwind_cpp_pr1",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "__aeabi_unwind_cpp_pr2",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "floorf",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "sin",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "sqrtf",
+          "kind": "function",
+          "size": 0
+        }
+      ]
+    },
+    {
+      "soname": "libssl.so.2",
+      "symbols": [
+        {
+          "name": "SSL_CIPHER_get_name",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "SSL_CTX_ctrl",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "SSL_CTX_free",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "SSL_CTX_new",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "SSL_CTX_set_cipher_list",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "SSL_CTX_set_verify",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "SSL_CTX_use_PrivateKey",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "SSL_CTX_use_certificate",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "SSL_do_handshake",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "SSL_free",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "SSL_get_current_cipher",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "SSL_get_error",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "SSL_library_init",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "SSL_load_error_strings",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "SSL_new",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "SSL_read",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "SSL_set_bio",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "SSL_set_connect_state",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "SSL_state",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "SSL_write",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "TLSv1_2_client_method",
+          "kind": "function",
+          "size": 0
+        }
+      ]
+    },
+    {
+      "soname": "libcrypto.so.2",
+      "symbols": [
+        {
+          "name": "BIO_ctrl_pending",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "BIO_free",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "BIO_new",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "BIO_new_mem_buf",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "BIO_read",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "BIO_s_mem",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "BIO_write",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "ERR_error_string_n",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "ERR_get_error",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "EVP_PKEY_free",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "OPENSSL_add_all_algorithms_noconf",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "PEM_read_bio_PrivateKey",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "PEM_read_bio_X509",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "X509_free",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "__aeabi_idiv",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "__aeabi_idivmod",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "__aeabi_uidiv",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "__aeabi_uidivmod",
+          "kind": "function",
+          "size": 0
+        }
+      ]
+    },
+    {
+      "soname": "libscreen.so.1",
+      "symbols": [
+        {
+          "name": "__aeabi_uidiv",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "__aeabi_uidivmod",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "__aeabi_uldivmod",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "__aeabi_unwind_cpp_pr0",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "__aeabi_unwind_cpp_pr1",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "__aeabi_unwind_cpp_pr2",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "screen_create_context",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "screen_create_event",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "screen_create_window_buffers",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "screen_create_window_group",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "screen_create_window_type",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "screen_destroy_context",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "screen_destroy_window",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "screen_fill",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "screen_get_buffer_property_pv",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "screen_get_context_property_iv",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "screen_get_context_property_pv",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "screen_get_event",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "screen_get_event_property_iv",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "screen_get_event_property_pv",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "screen_get_window_property_cv",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "screen_get_window_property_iv",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "screen_get_window_property_pv",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "screen_post_window",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "screen_set_window_property_cv",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "screen_set_window_property_iv",
+          "kind": "function",
+          "size": 0
+        },
+        {
+          "name": "screen_set_window_property_pv",
+          "kind": "function",
+          "size": 0
+        }
+      ]
+    }
+  ]
+}

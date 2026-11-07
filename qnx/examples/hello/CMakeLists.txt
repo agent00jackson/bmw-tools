@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.24)
+project(qnx_hello C CXX)
+find_package(QnxSdk CONFIG REQUIRED)
+add_executable(hello main.cpp)
+target_compile_features(hello PRIVATE cxx_std_11)
+add_library(example SHARED example.c)

@@ -1,0 +1,16 @@
+# SPDX-License-Identifier: MIT
+get_filename_component(QNX_SDK "${CMAKE_CURRENT_LIST_DIR}/../../.." ABSOLUTE)
+file(READ "${QNX_SDK}/share/qnx-sdk/qnx650.json" metadata)
+string(JSON count LENGTH "${metadata}" libraries)
+math(EXPR last "${count} - 1")
+foreach(index RANGE 0 ${last})
+  string(JSON soname GET "${metadata}" libraries ${index} soname)
+  string(REGEX REPLACE "^lib" "" target "${soname}")
+  string(REGEX REPLACE "\\.so.*$" "" target "${target}")
+  if(NOT TARGET "QNX::${target}")
+    add_library("QNX::${target}" SHARED IMPORTED GLOBAL)
+    set_target_properties("QNX::${target}" PROPERTIES
+      IMPORTED_LOCATION "${QNX_SDK}/usr/lib/${soname}" IMPORTED_SONAME "${soname}")
+  endif()
+endforeach()
+include("${CMAKE_CURRENT_LIST_DIR}/QnxImport.cmake")
